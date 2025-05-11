@@ -108,7 +108,7 @@
 // &&&& method four
 
 const container = document.getElementById("container")
-// container.style.display = "flex"
+// container.style.display = "flex" // when connect css, no need to style here.
 // container.style.flexWrap = "wrap"
 // container.style.justifyContent = "space-around"
 // container.style.alignItems = "center"
