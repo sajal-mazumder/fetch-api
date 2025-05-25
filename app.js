@@ -1,5 +1,5 @@
 
-//https:jsonplaceholder.typicode.com/posts
+// https://jsonplaceholder.typicode.com/posts
 
 // only for checking console
 
@@ -107,34 +107,34 @@
 
 // &&&& method four
 
-const container = document.getElementById("container")
+// const container = document.getElementById("container")
 // container.style.display = "flex" // when connect css, no need to style here.
 // container.style.flexWrap = "wrap"
 // container.style.justifyContent = "space-around"
 // container.style.alignItems = "center"
 // container.style.padding = "10px"
 
-const url = "https://jsonplaceholder.typicode.com/posts"
+// const url = "https://jsonplaceholder.typicode.com/posts"
 
-fetch(url)
-.then(res => res.json())
-.then(dt => {
-    dt.forEach(element => {
-        const div = document.createElement("div")
+// fetch(url)
+// .then(res => res.json())
+// .then(dt => {
+//     dt.forEach(element => {
+//         const div = document.createElement("div")
 
-        // div.style.marginBottom = "10px"
-        // div.style.backgroundColor = "#696969"
-        // div.style.padding = "10px"
-        // div.style.color = "#fff"
-        // div.style.width = "200px"
-        // div.style.height = "180px"
+//         // div.style.marginBottom = "10px"
+//         // div.style.backgroundColor = "#696969"
+//         // div.style.padding = "10px"
+//         // div.style.color = "#fff"
+//         // div.style.width = "200px"
+//         // div.style.height = "180px"
 
-        div.innerHTML = `
-        ID: ${element.id}<br>
-        TITLE: ${element.title}<br>
-        BODY: ${element.body}<br>
-        `
+//         div.innerHTML = `
+//         ID: ${element.id}<br>
+//         TITLE: ${element.title}<br>
+//         BODY: ${element.body}<br>
+//         `
 
-        container.appendChild(div)
-    });
-})
+//         container.appendChild(div)
+//     });
+// })

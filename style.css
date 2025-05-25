@@ -1,13 +1,10 @@
 
 
-
-/* .container{
-    display = flex
-    flexWrap = wrap
-    justifyContent = space-around
-    alignItems = center
-    padding = 10px
-} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 #container{
     display: flex;
@@ -18,8 +15,8 @@
 }
 
 #container div{
-    width: 200px;
-    height: 180px;
+    width: 300px;
+    height: 280px;
     background-color: #696969;
     color: white;
     margin-bottom: 10px;
@@ -27,3 +24,77 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#container div h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(84, 85, 86);
+}
+
+#container div h3{
+     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(109, 157, 206);
+}
+
+#container div h4{
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: 500; */
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(66, 95, 124);
+}
+
+#container div p{
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: 500; */
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(31, 95, 159);
+}
+
+
+#titlesList{
+    background-color: aquamarine;
+    padding: 30px;
+}
+
+#titlesList li h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-bottom: 10px;
+    background-color: #696969;
+    padding: 10px;
+}
+
+#titlesList li h3{
+    font-family:cursive;
+    color: antiquewhite;
+    background-color: #69696997;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#titlesList li p{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(240, 255, 255, 0.505);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#titlesList li h4{
+    font-family:cursive;
+    color: antiquewhite;
+    background-color: #69696997;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+:where(main, header, footer) a:hover{
+    color: red;
+    text-decoration: underline;
+    font-size: 2rem;
+}
